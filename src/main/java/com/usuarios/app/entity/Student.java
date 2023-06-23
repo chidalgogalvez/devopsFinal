@@ -32,5 +32,6 @@ public class Student {
   @Column(name="email", nullable = false, length = 50, unique = true)
   private String email;
 
-
+  public Student(String james, String gosling, String mail) {
+  }
 }
